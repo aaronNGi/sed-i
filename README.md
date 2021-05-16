@@ -7,7 +7,7 @@ the options mandated by POSIX (`-e`, `-f`, `-n`), with the addition of
 the non-portable `-r` and `-E`, for extended regular expressions, and
 GNU style long-option versions.  If no `-i` is used, a single sed(1)
 will be run, as opposed to running one per file, where each one is
-writing to a temporary file.  The temporary file will eventially be
+writing to a temporary file.  The temporary file will eventually be
 moved to overwrite the original file.
 
 There are a lot of unportable build scripts/systems, preventing the
